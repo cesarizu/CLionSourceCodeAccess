@@ -4,7 +4,7 @@ namespace UnrealBuildTool.Rules
 {
 	public class CLionSourceCodeAccess : ModuleRules
 	{
-        public CLionSourceCodeAccess(ReadOnlyTargetRules Target) : base(Target)
+        public CLionSourceCodeAccess(TargetInfo Target)
 		{
 			PrivateDependencyModuleNames.AddRange(
 				new string[]

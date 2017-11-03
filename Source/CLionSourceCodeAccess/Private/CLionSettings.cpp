@@ -2,6 +2,7 @@
 
 #include "CLionSourceCodeAccessPrivatePCH.h"
 #include "CLionSettings.h"
+#include "Runtime/Core/Public/Internationalization/Regex.h"
 
 #if PLATFORM_WINDOWS
 #include "AllowWindowsPlatformTypes.h"
